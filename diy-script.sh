@@ -61,11 +61,9 @@ sed -i "s|ARMv8|ARMv8_PLUS|g" package/luci-app-amlogic/root/etc/config/amlogic
 
 
 
-# MosDNS
-git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+# MosDNS git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
-# Alist
-git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
+# Alist git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
 # DDNS.to
 
